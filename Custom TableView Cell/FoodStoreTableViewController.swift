@@ -130,12 +130,17 @@ class FoodStoreTableViewController: UITableViewController {
                   destinationController.title = foodStoreNames[indexPath.row]
                   //이미지 넘기기
                   destinationController.cellImage = foodStoreImages[indexPath.row]
+                  //주소 넘기기
                   destinationController.location = foodStoreLocation[indexPath.row]
                   destinationController.Tell = foodStoreTel[indexPath.row]
                   destinationController.menu =
                       foodMeuns[indexPath.row]
             }
             
+      } else if segue.identifier == "totalMap" {
+            let destinationController = segue.destination as! TotalMapViewController
+            destinationController.locations = foodStoreLocation
+            destinationController.names = foodStoreNames
       }
     }
 
