@@ -14,6 +14,8 @@
 		0568D8A520A7175C00CB259C /* FoodStoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568D8A420A7175C00CB259C /* FoodStoreTableViewController.swift */; };
 		05AE16B820A8619A00978E45 /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05AE16B720A8619A00978E45 /* FoodStoreTableViewCell.swift */; };
 		3441C53F20BBDA7300DCB07A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3441C53E20BBDA7300DCB07A /* DetailViewController.swift */; };
+		345CFE2420CE512100CFDB6E /* TotalMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345CFE2320CE512100CFDB6E /* TotalMapViewController.swift */; };
+		345CFE2720CE52AD00CFDB6E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 345CFE2620CE52AD00CFDB6E /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0568D8A420A7175C00CB259C /* FoodStoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewController.swift; sourceTree = "<group>"; };
 		05AE16B720A8619A00978E45 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
 		3441C53E20BBDA7300DCB07A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		345CFE2320CE512100CFDB6E /* TotalMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalMapViewController.swift; sourceTree = "<group>"; };
+		345CFE2620CE52AD00CFDB6E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				345CFE2720CE52AD00CFDB6E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,7 @@
 			children = (
 				0568D88D20A7125200CB259C /* Custom TableView Cell */,
 				0568D88C20A7125200CB259C /* Products */,
+				345CFE2520CE52AD00CFDB6E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +66,7 @@
 			children = (
 				0568D88E20A7125200CB259C /* AppDelegate.swift */,
 				0568D89220A7125200CB259C /* Main.storyboard */,
+				345CFE2320CE512100CFDB6E /* TotalMapViewController.swift */,
 				05AE16B720A8619A00978E45 /* FoodStoreTableViewCell.swift */,
 				0568D89520A7125200CB259C /* Assets.xcassets */,
 				0568D89720A7125200CB259C /* LaunchScreen.storyboard */,
@@ -68,6 +75,14 @@
 				3441C53E20BBDA7300DCB07A /* DetailViewController.swift */,
 			);
 			path = "Custom TableView Cell";
+			sourceTree = "<group>";
+		};
+		345CFE2520CE52AD00CFDB6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345CFE2620CE52AD00CFDB6E /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +161,7 @@
 				05AE16B820A8619A00978E45 /* FoodStoreTableViewCell.swift in Sources */,
 				0568D8A520A7175C00CB259C /* FoodStoreTableViewController.swift in Sources */,
 				3441C53F20BBDA7300DCB07A /* DetailViewController.swift in Sources */,
+				345CFE2420CE512100CFDB6E /* TotalMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WBM58B7626;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Custom TableView Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.dit.Custom-TableView-Cell";
@@ -298,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WBM58B7626;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Custom TableView Cell/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kr.ac.dit.Custom-TableView-Cell";

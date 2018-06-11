@@ -2,7 +2,7 @@
 //  FoodStoreTableViewController.swift
 //  Custom TableView Cell
 //
-//  Created by 박철헌 on 2018. 5. 21..
+//  Created by 박금상 on 2018. 5. 21..
 //  Copyright © 2018년 201550057. All rights reserved.
 //
 
